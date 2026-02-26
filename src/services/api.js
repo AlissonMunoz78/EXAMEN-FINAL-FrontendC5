@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'https://c5gestion-conferenciasback.vercel.app/api' })
+const api = axios.create({ baseURL: 'https://examen-final-khaki.vercel.app/api' })
 
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token_caso5')
